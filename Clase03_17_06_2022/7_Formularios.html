@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1>Formulario de Contacto</h1>
+    <hr />
+    
+    <form action="/Formulario" method="POST">
+        <br>
+        <label for="nombre">Nombres</label>
+        <input type="text"  id="nombre" name="nombre" placeholder="Ingrese sus nombres">
+        <br><br>
+
+        <label for="Apellidos">Apellidos</label>
+        <input type="text"  id="apellidos" name="apellidos" placeholder="Ingrese sus apellidos">
+        <br><br>
+
+        <label for="correo">Correo electronico</label>
+        <input type="email"  id="correo" name="correo" placeholder="Ingrese su correo">
+        <br><br>
+
+        <label for="clave">Contraseña</label>
+        <input type="password"  id="clave" name="clave" placeholder="Ingrese su contraseña">
+        <br><br>
+        
+        <label >Seleccionar el sexo</label>
+        <br><br>
+        <input type="radio"  id="sexo" name="sexo">Masculino
+        <br><br>
+        <input type="radio"  id="sexo" name="sexo">Femenino
+        <br><br>
+
+        <label >Seleccionar tus deportes favoritos</label>
+        <br><br>
+        <input type="checkbox"  id="deporte" name="deporte">Golf
+        <br><br>
+        <input type="checkbox"  id="deporte" name="deporte">Basquet
+        <br><br>
+        <input type="checkbox"  id="deporte" name="deporte">Voley
+        <br><br>
+
+        <label >Adjuntar tu fotografia</label>
+        <br><br>
+        <input type="file"  id="fotografia" name="fotografia">
+        <br><br>
+
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea name="comentario" id="comentario" cols="50" rows="10">ingrese su comentario</textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+  </body>
+</html>

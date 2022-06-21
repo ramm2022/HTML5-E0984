@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+
+    <!-- Tabla Basica / Estructura Antigua-->
+
+    <h1>Inserción de tablas</h1>    
+    <hr>
+    <table border="1">
+        <tr>
+            <th>Codigo</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>1000</td>
+            <td>Licuadora</td>
+            <td>150.00</td>
+        </tr>
+        <tr>
+            <td>2000</td>
+            <td>Lavadora</td>
+            <td>2300.00</td>
+        </tr>
+        <tr>
+            <td>3000</td>
+            <td>Refrigeradora</td>
+            <td>3600.00</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- Tabla Basica / Estructura Actual-->
+
+    <table border = "1">
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A100</td>
+                <td>Cocina</td>
+                <td>100</td>
+                <td>1200.00</td>
+            </tr>
+            <tr>
+                <td>A200</td>
+                <td>Televisor</td>
+                <td>50</td>
+                <td>3600.00</td>
+            </tr>
+            <tr>
+                <td>A300</td>
+                <td>Horno</td>
+                <td>250</td>
+                <td>1600.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>400</td>
+                <td>5400.00</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+    <hr>
+    <!-- Tamaño de la tabla-->
+
+    <table border="2" width="600">
+        <thead>
+            <tr>
+                <th>Nombre</th><th>Edad</th><th>Dirección</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Andre Leon</td><td>25</td><td>Surquillo</td>
+            </tr>
+            <tr>
+                <td>Gioconda Cusihuaman</td><td>30</td><td>Barranco</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total de usuarios</td><td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
