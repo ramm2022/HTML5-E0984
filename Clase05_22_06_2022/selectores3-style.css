@@ -1,0 +1,18 @@
+/*  el ultimo seleccionado queda estilizado */
+p.parrafo {
+    color:brown;
+}
+
+p.especial {
+    color:blue
+}
+
+
+/* reordenado los estilos */
+p.especial1 {
+    color:blue
+}
+
+p.parrafo1 {
+    color:brown;
+}

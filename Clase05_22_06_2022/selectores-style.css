@@ -1,0 +1,14 @@
+/* Seleccionando la etiqueta h1*/
+h1 {
+    color:blue
+}
+
+/* Seleccionando la clase de la etiqueta h2*/
+.subtitulo {
+    color:tomato
+}
+
+/* Seleccionando el id de la etiqueta P */
+#parrafo{
+    color:greenyellow
+}
