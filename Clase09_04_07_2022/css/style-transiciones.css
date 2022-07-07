@@ -1,0 +1,39 @@
+#caja-one {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin: 10px;
+    transition: width 2s;
+}
+
+#caja-two {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 10px;
+    float:right;
+    transition: background-color 2s;
+
+}
+
+#caja-three {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border: 1px solid red;
+    margin: 10px;
+    transition: height 2s, background-color 2s;
+}
+
+#caja-one:hover {
+    width: 400px;
+}
+
+#caja-two:hover {
+    background: orange;
+}
+
+#caja-three:hover {
+    background: skyblue;
+    height: 300px;
+}
