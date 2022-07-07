@@ -1,0 +1,12 @@
+.color {
+    background-color:lightblue ;
+}
+
+.imagen {
+    background-image: url(/Clase07_27_06_2022/img/batman2.jpg);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-y;
+        background-repeat: repeat-x; */
+    background-attachment: fixed;    
+    background-position: 500px 300px;
+}
